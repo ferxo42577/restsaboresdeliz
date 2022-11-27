@@ -1,0 +1,55 @@
+/*
+Editor styles.
+*/
+
+#elementor-panel-categories .elementor-panel-category:not(#elementor-panel-category-woolentor-addons-pro) {
+    display: none !important;
+}
+#elementor-panel-content-wrapper #elementor-panel-page-settings .elementor-panel-navigation .elementor-component-tab.elementor-panel-navigation-tab:not(.elementor-tab-control-style) {
+    display: none !important;
+}
+#elementor-panel-content-wrapper #elementor-panel-page-editor .elementor-panel-navigation .elementor-component-tab.elementor-panel-navigation-tab:not(.elementor-tab-control-content,.elementor-tab-control-style) {
+    display: none !important;
+}
+#elementor-panel-content-wrapper #elementor-panel-page-menu-content .elementor-panel-menu-item:not(.elementor-panel-menu-item-editor-preferences,.elementor-panel-menu-item-view-page,.elementor-panel-menu-item-exit-to-dashboard) {
+    display: none !important;
+}
+#elementor-panel-inner #elementor-panel-content-wrapper #elementor-panel-elements-navigation div[data-tab="global"] {
+    display: none !important;
+}
+#elementor-panel-inner #elementor-panel-content-wrapper #elementor-panel-page-elements #elementor-panel-elements-search-area {
+    display: none !important;
+}
+#elementor-panel-inner #elementor-panel-footer #elementor-panel-footer-settings,
+#elementor-panel-inner #elementor-panel-footer #elementor-panel-footer-responsive {
+    display: none !important;
+}
+.elementor-device-desktop #elementor-preview-responsive-wrapper {
+    max-width: 100% !important;
+    min-width: 100% !important;
+    width: 100% !important;
+}
+
+/* Section */
+#elementor-panel-inner #elementor-panel-content-wrapper .woolentor-email-section-editor #elementor-controls .elementor-control:not(.elementor-control-section_background,[class*="woolentor_email_section"]) {
+    display: none !important;
+}
+
+/* Columns */
+#elementor-panel-inner #elementor-panel-content-wrapper .woolentor-email-column-editor #elementor-controls .elementor-control:not(.elementor-control-section_style,[class*="woolentor_email_column"]) {
+    display: none !important;
+}
+
+/* Placeholders */
+.woolentor-email-placeholder code {
+    display: inline-block;
+    padding: 5px 0;
+}
+
+/* Order not found notice */
+.woolentor-email-no-order-found-notice {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #93003c;
+}
