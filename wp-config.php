@@ -20,16 +20,20 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'restsaboresdeliz' );
+define( 'DB_NAME', 'railway' );
+// restsaboresdeliz
 
 /** Database username */
 define( 'DB_USER', 'root' );
+// root
 
 /** Database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', '7DvRGuSzLyUGRlTviJrX' );
+// vacio
 
 /** Database hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'containers-us-west-110.railway.app:6301' );
+// localhost
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
